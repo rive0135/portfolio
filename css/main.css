@@ -14,6 +14,7 @@ body{
 
 ul li{
     list-style-type: none;
+    padding: 1rem;
 }
 
 /* Header Settings*/
@@ -40,6 +41,11 @@ nav{
 nav a{
     text-decoration: none;
     color: #05001F;
+    transition: .3s;
+}
+
+nav a:hover{
+    color: #ED377D;
 }
 
 /* Home Page Settings */
@@ -124,7 +130,7 @@ p{
     color: #fff;
     display: flex;
     justify-content: center;
-    height: 80vh;
+    height: 180vh;
 }
 
 .portfolio-contents div{
@@ -174,7 +180,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 570px;
+    max-width: 570px;
     border-radius: 5px;
 }
 
@@ -194,16 +200,37 @@ p{
     display: flex;
     justify-content: center;
     padding: 1rem;
-    margin-top: 1rem;
+}
+
+form{
+    padding-bottom: 8px;
+}
+
+input{
+    width: 100%;
+    padding-left: 6px;
+    border: 1px rgb(151, 148, 148) solid;
+    border-radius:5px;
+}
+
+textarea{
+    width: 100%;
+    padding-left: 6px;
+    padding-top: 6px;
+    border-radius:5px;
+    border: 1px rgb(151, 148, 148) solid;
 }
 
 .send a{
-    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
     text-decoration: none;
     color: #ED377D;
     border: 1px solid #ED377D;
     border-radius: 5px;  
-    padding-left: 1rem;
     transition: .3s; 
 }
 
@@ -292,7 +319,11 @@ footer li{
         padding: 1rem;
     }
 
-    
+    .portfolio-bg{
+        height: 100vh;
+    }
+
+    /* Home Page Settings */
 
     /* Footer Desktop Settings */
     footer{
@@ -357,6 +388,9 @@ footer li{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+    }
+    .portfolio-bg{
+        height: 80vh;
     }
 
     /* Portfolio Settings End */
