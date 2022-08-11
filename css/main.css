@@ -1,7 +1,35 @@
+/* Color Hex */
+/* 
+    #18ADA4
+    #0A6487
+    #ED377D
+    #FFC66B
+    #05001F
+    #FFF
+*/
+
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* For browsers that do not support gradients */
-/* background-color: #0A6487; 
-background-image: linear-gradient(#18ADA4, #0A6487); */
+nav{
+    background-color: white;
+}
+
+
+/* Home Page Settings */
+
+.home-bg{
+    /* For browsers that do not support gradients */
+    background-color: #0A6487; 
+    background-image: linear-gradient(#18ADA4, #0A6487);
+}
+
+.do-bg{
+    background-color: #ED377D; 
+    background-image: linear-gradient(to right, #ED377D , #FFC66B);
+}
+
+/* Home Page Settings End */
+
+
