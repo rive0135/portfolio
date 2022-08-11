@@ -194,6 +194,35 @@ nav a{
     background-color: #ED377D;
 }
 
+.social h2{
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social-icons{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}   
+
+.social a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.social i{
+    color: #fff;
+    padding: 1rem;
+    font-size: 32px;
+}
+
 /* Contact Form Settings End */
 
 
