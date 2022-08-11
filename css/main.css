@@ -54,6 +54,10 @@ ul li{
     justify-content: center;
 }
 
+/* .portfolio-container::after{
+
+} */
+
 .portfolio-bg h2,i,h1{
     padding: 1rem;
     text-align: center;
